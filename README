@@ -1,0 +1,12 @@
+ti-ol-scripts
+=============
+
+this project contains scripts for ti-ol projects.
+forall_ti-ol.sh is the executer for all ti-ol* scripts.
+in order to execute a specific script over all ti-ol projects
+within an Android project (using repo/manifests features),
+one should pass the command line to be ran in each ti-ol project.
+
+e.g: in order to rebase all ti-ol projects, use:
+forall_ti-ol.sh rebase.sh
+
